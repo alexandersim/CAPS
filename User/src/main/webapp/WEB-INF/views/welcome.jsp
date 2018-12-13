@@ -6,7 +6,9 @@
     <c:if test="${not empty errorMessage}"><div style="color:red; font-weight: bold; margin: 30px 0px;">${errorMessge}</div></c:if>
  
     
-	<form name='login' action="/login" method='POST'>
+	<form action="${pageContext.request.contextPath}/admin/home.html"
+		method="POST"  ModelAttribute="user">
+	
         <table>
             <tr>
                 <td>UserName:</td>
