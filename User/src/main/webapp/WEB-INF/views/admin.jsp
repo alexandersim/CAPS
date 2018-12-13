@@ -15,7 +15,9 @@
 
 <body>
 
-      <h5 class="w3-padding-32">The Integrated Virtual Learning Environment (IVLE) is a NUS' custom designed and built Learning Management System for the NUS community. It is designed to facilitate and supplement teaching at the National University of Singapore (NUS).</h5>
+      <h5 class="w3-padding-32"><a href='<spring:url value="/signout"/>'>Logout</a></h5>
+      
+      The Integrated Virtual Learning Environment (IVLE) is a NUS' custom designed and built Learning Management System for the NUS community. It is designed to facilitate and supplement teaching at the National University of Singapore (NUS).
 
       <p class="w3-text-grey"> IVLE is designed to:
       <br>1. Ease the administrative work of the teaching staff
@@ -35,6 +37,7 @@ Test1<br>
 Test2<br>
 Test3<br>
 </sidebar>
+
 <!-- <sidebar>
 <a href="#" class="w3-bar-item w3-button">Manage Admin</a>
     <a href="#" class="w3-bar-item w3-button">Students</a>

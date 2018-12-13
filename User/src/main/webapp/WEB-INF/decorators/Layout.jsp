@@ -22,20 +22,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <title><dec:title/></title>
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:70px"">
+<div class="w3-main">
 
 <!-- Sidebar/menu -->
 <!-- <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-left" style="z-index:3;width:150px">
   <div class="w3-container w3-display-container">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i> -->
      
-    <div class="w3-sidebar w3-bar-block w3-black" style="width:70px">
-    
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a> 
+    <div class="w3-sidebar w3-bar-block w3-black w3-collapse w3-xxlarge" style="width:200px">
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <dec:getProperty property = "sidebar"/>
+  <!-- <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a> 
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a> 
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a> 
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash"></i></a> 
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash"></i></a>  -->
 </div>
 
 </nav>
@@ -70,7 +71,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <dec:body/></div>
   </div>
 </div>
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
+<div class="w3-container w3-black w3-center w3-opacity">
 		<h1 class="w3-margin w3-large">Made by SA47 Team 13</h1>
 	</div>
 	<footer class="w3-container w3-padding-10 w3-center w3-opacity">
