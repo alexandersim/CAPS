@@ -7,14 +7,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Error</title>
+
+<form:form action="${pageContext.request.contextPath}/login/error.html"/>
+Invalid credentials!
 </head>
 <body>
 <%-- <form:form action="${pageContext.request.contextPath}/login/admin.html"
 		method="POST" ModelAttribute="user">
 		</form:form>
-		<h1>hello well done</h1> --%>
+		<h1>hello well done</h1> --%>	
+		
 		
 </body>
 </html>

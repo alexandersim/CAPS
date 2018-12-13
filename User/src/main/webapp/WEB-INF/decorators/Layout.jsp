@@ -15,7 +15,7 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-graduation-cap,.fa-coffee {font-size:200px}
+.fa-anchor,.fa-graduation-cap {font-size:200px}
 </style>
 
 <body>
@@ -55,16 +55,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-graduation-cap w3-padding-64 w3-vivid-blue"></i>
+      <i class="fa fa-anchor w3-padding-64 w3-text-indigo"></i>
     </div>
   </div>
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-vivid-blue w3-padding-64 w3-container">
+<div class="w3-row-padding w3-indigo w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-right">
-      <i class="fa fa-coffee w3-padding-64 w3-background-vivid-blue w3-margin-right"></i>
+      <i class="fa fa-graduation-cap w3-padding-64 w3-text-white w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
