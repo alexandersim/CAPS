@@ -48,7 +48,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Header -->
 <header class="w3-container w3-red w3-right" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">National University of Singapore</h1>
-  <p class="w3-xlarge">Include login here</p>
+  <p class="w3-xlarge"><dec:body/></p>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Login</button> &nbsp &nbsp
 <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Cancel</button>
 
@@ -108,6 +108,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
   </div>
 </div>
+
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-10">
 		<h1 class="w3-margin w3-large">Made by SA47 Team 13</h1>
 	</div>

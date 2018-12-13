@@ -1,4 +1,4 @@
-package com.iss;
+/*package com.iss;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +31,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	}
 }
 
-/*
+
  * http.authorizeRequests() .antMatchers("/user/new/*").hasAnyRole("USER",
  * "ADMIN") .antMatchers("/user/login/admin/*").hasAnyRole("USER", "ADMIN")
  * .antMatchers("/user/*").permitAll() .and() http.formLogin()
@@ -40,4 +40,5 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
  * .defaultSuccessUrl("/new.html",true); .and() .logout()
  * .logoutUrl("/user/logout") .and() .csrf() .and() .exceptionHandling()
  * .accessDeniedPage("/user/forbidden"); super.configure(http);
- */ // Very important!
+  // Very important!
+*/

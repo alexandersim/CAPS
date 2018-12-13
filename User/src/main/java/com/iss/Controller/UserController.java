@@ -18,13 +18,6 @@ public class UserController {
 
 	@Autowired
 	UserService uservice;
-   
-/*	@RequestMapping(value = "/list", method = RequestMethod.GET)
-    public ModelAndView listAll() {
-		//ArrayList<User> ulist = uservice.findAllUsers();
-    	ModelAndView mav = new ModelAndView("AdminHome");
-    	return mav;
-    }*/
 	
 	
 	@RequestMapping(value = "/new", method = RequestMethod.GET)
